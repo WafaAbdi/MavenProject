@@ -14,12 +14,12 @@ public class NewTest {
 		 
 		@Test
 		  public void openMyBlog() {
-			System.out.println("Welcome to GCT");
-			driver.get("http://www.gct.com.tn/accueil/");
-			driver.navigate().to("https://mail.gct.com.tn/webentry.nsf");
-			driver.findElement(By.id("user")).sendKeys("wafa_abdi@yahoo.com");
-			driver.findElement(By.id("password")).sendKeys("123456789");
-			driver.findElement(By.id("onclick")).click();
+			System.out.println("Welcome to Facebook");
+			
+			driver.navigate().to("https://www.facebook.com/");
+			driver.findElement(By.id("email")).sendKeys("wafa_abdi@yahoo.com");
+			driver.findElement(By.id("pass")).sendKeys("123456789");
+			driver.findElement(By.id("u_0_a")).click();
 		  }
 		  
 		  @BeforeClass
